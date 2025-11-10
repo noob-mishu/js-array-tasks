@@ -1,0 +1,5 @@
+const fruits=['Apple','Bannana','Mango','Orange','Guava'];
+console.log(fruits[3]);
+
+fruits[2]='Jambura';
+console.log(fruits);
