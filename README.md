@@ -1,10 +1,7 @@
 # js-array-tasks
 
 ### 1. Declare an array 
-1. Declare an array with 5 elements containing fruits
-2. console log the 3rd index element
-3. change the value of the 2nd index element to jambura
-4. console log the final array
+
 
 ---
 ### 2. Add or remove elements
@@ -18,15 +15,16 @@
 
 ### 3. Checking Array Membership with ‘includes’
 
-**Instructions:**
+const books=['bangla','english','math','science','history'];
 
-1. Create an array of books containing different book.
 
-2. Use the includes method to check if the array contains a javascript book.
+if(books.includes('math')){
+    console.log('math book is available');
 
-3. Print a message to the console indicating whether the element is present in the array or not.
-
----
+}
+else{
+    console.log('math book is not available');
+}
 
 ### 4. Checking if it's an Array
 
@@ -47,3 +45,4 @@
 1. Create two arrays of your choice.
 2. Use the concat method to combine the two arrays into a new array.
 3. Print both the original arrays and the combined array using console.log().
+
